@@ -1,0 +1,36 @@
+{
+  "name": "coding-challenge-fe-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && tsc && node dist/index.js",
+    "test": "rimraf dist && jest",
+    "test-watch": "rimraf dist && jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storyful/coding-challenge-fe-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storyful/coding-challenge-fe-base/issues"
+  },
+  "homepage": "https://github.com/storyful/coding-challenge-fe-base#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.0",
+    "babel-jest": "^27.0.6",
+    "concurrently": "^6.2.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
